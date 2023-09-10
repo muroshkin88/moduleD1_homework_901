@@ -12,7 +12,5 @@ platformdirs 3.10.0
 setuptools 68.0.0
 six 1.16.0
 sqlparse 0.4.4
-
 virtualenv 20.24.4
-
 wheel 0.41.2
