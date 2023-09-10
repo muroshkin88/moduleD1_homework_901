@@ -1,0 +1,35 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+
+{% block content %}
+    <hr>
+    <h1 style="
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center !important;">Контактная информация:</h1>
+    <hr>
+    <h2 style="
+    color: red;
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+    font-size: 30px;">{{ flatpage.content }}</h2>
+    <hr>
+    <h2 style="
+    color: green;
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+    font-size: 30px;">{{ flatpage.content }}</h2>
+    <hr>
+{% endblock content %}
+
+
+
+

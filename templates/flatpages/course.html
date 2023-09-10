@@ -1,0 +1,15 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+
+{% block content %}
+    <hr>
+    <h1 style="color: red"><i>Курсы от нашей компании:</i></h1>
+    <hr>
+    {{ flatpage.content }}
+    <hr>
+{% endblock content %}
+
